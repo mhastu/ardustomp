@@ -105,7 +105,7 @@ void readInput() {
     }
     diAntiBounceBuffer[i] = diAntiBounceBuffer[i] << 1;  // make space for new value
     if (sens == HIGH) {
-      bitSet(diAntiBounceBuffer[i], 0);7
+      bitSet(diAntiBounceBuffer[i], 0);
     }
   }
 }
